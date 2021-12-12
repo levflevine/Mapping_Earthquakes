@@ -41,7 +41,7 @@ To complete this project, use a URL for GeoJSON earthquake data from the USGS we
 
 ## Results
 
-### Published Dashboard
+### Published Map
 
 [https://levflevine.github.io/Mapping_Earthquakes/](https://levflevine.github.io/Mapping_Earthquakes/)
 
