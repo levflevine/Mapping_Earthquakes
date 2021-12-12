@@ -47,12 +47,12 @@ To complete this project, use a URL for GeoJSON earthquake data from the USGS we
 
 ### Map - All Layer Groups
 
-![Top](/resources/Map-1.png)
+![Map-1](/Resources/Map-1.png)
 
 ### Map - Major Earthquakes Layer Group
 
-![Middle](/resources/Map-2.png)
+![Map-2](/Resources/Map-2.png)
 
 ### Map - Tectonic Plate Layer Group
 
-![Bottom](/resources/Map-3.png)
+![Map-3](/Resources/Map-3.png)
