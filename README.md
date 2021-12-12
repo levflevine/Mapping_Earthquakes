@@ -12,45 +12,47 @@ To complete this project, use a URL for GeoJSON earthquake data from the USGS we
 
 ### Approach
 
-Your approach will be to use the JavaScript and the D3.js library to retrieve the coordinates and magnitudes of the earthquakes from the GeoJSON data. You'll use the Leaflet library to plot the data on a Mapbox map through an API request and create interactivity for the earthquake data.
+1. Retrieve the coordinates and magnitudes of the earthquakes, as well as tectonic plate from the GeoJSON data. 
+2. Use the Leaflet library to plot the data on a Mapbox map through an API request and create interactivity for the earthquake data.
 
-Now that you have an overview of the project plan, let's set up a Mapbox account and get the API token you'll need to create geographical maps.
 ### Deliverables: 
 
-1. Create a Horizontal Bar Chart
-2. Create a Bubble Chart
-3. Create a Gauge Chart
-4. Customize the Dashboard
+1. Add Tectonic Plate Data
+2. Add Major Earthquake Data
+3. Add an Additional Map
 
 ### Tools and Data Sources
 
 #### Tools
 
 - JavaScript
-- Plotly Library
 - D3.json() Library
+- Leaflet library
 - HTML
 - CSS
-- Bootstrap framework
 
 #### Data Sources
 
-- [Sample Bacteria Data](https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-online/module_12/data-12-3-2-resources.zip)
+- [Tectonic Plate Data](https://github.com/fraxen/tectonicplates)
+
+- [All Earthquakes in the Past 7 days](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson)
+
+- [All Major Earthquakes (>4.5 magnitude) in the Past 7 days](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson)
 
 ## Results
 
 ### Published Dashboard
 
-[https://levflevine.github.io/Sample-Project/](https://levflevine.github.io/Sample-Project/)
+[https://levflevine.github.io/Mapping_Earthquakes/](https://levflevine.github.io/Mapping_Earthquakes/)
 
-### Dashboard Top
+### Map - All Layer Groups
 
-![Top](/resources/Screen1.png)
+![Top](/resources/Map-1.png)
 
-### Dashboard Middle
+### Map - Major Earthquakes Layer Group
 
-![Middle](/resources/Screen2.png)
+![Middle](/resources/Map-2.png)
 
-### Dashboard Bottom
+### Map - Tectonic Plate Layer Group
 
-![Bottom](/resources/Screen3.png)
+![Bottom](/resources/Map-3.png)
